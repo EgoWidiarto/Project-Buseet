@@ -1,0 +1,206 @@
+body {
+  background: linear-gradient(to bottom, rgba(32, 59, 102, 1), rgba(171, 192, 222, 1));
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.transparent-navbar {
+  background-color: transparent;
+  color: #000;
+}
+
+.mynavbar {
+  background-color: rgba(32, 63, 102, 0.8) !important;
+  backdrop-filter: blur(4px);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+}
+
+.btn-register {
+  border: 1px solid #15f5ba;
+  color: #15f5ba;
+}
+
+.btn-register:hover {
+  background-color: #15f5ba !important;
+  color: #1f1f1f;
+}
+
+.offcanvas-profile {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.offcanvas {
+  text-align: center;
+  height: 100vh;
+  color: black;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.nav-link:hover {
+  font-weight: 400;
+}
+
+.nav-link:active {
+  color: white;
+}
+
+.aktiv {
+  font-weight: 500;
+}
+
+.bus-img {
+  width: 100vw;
+  height: 65vh;
+  object-fit: cover;
+}
+
+/* CSS Home page */
+
+.pemesanan .pesan-img,
+.pemesanan .pesan-caption {
+  width: 70%;
+}
+
+.pemesanan,
+.list-jadwal {
+  margin-top: 10rem;
+}
+
+.pemesanan .pesan-img,
+.partner .partner-img {
+  background-color: rgba(217, 217, 217, 0.8);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.pemesanan .pesan-caption {
+  text-align: left;
+  font-size: 18px;
+}
+
+.pemesanan .pesan-caption p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.container-btn {
+  padding-top: 5rem;
+}
+
+.container-btn .btn {
+  width: 328px;
+  height: 58px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+/* End Home Page CSS */
+
+/* CSS Pemesanan Bus */
+.container .input-group input,
+.container .input-group span {
+  border-radius: 0;
+  height: 100px;
+}
+
+.container .input-group {
+  margin-top: -11rem;
+}
+
+.container .input-group .curved {
+  border-radius: 15px;
+}
+
+#pesan-tiket form a {
+  padding-top: 0.7rem;
+}
+
+/* CSS Pemesanan End */
+
+/* CSS Partner Kami Start */
+.partner .partner-img {
+  width: 80%;
+}
+
+.partner .partner-img .row-img {
+  margin-left: 3rem;
+}
+
+/* Style Detail Jadwal */
+
+/* ubah dan batal jadwal */
+#ubah-jadwal {
+  padding-top: 8rem !important;
+}
+.cari-btn {
+  width: 11.25rem;
+  height: 3rem;
+  border-radius: 15px;
+  line-height: 1.6rem;
+}
+
+.ubah-jadwal-btn {
+  background-color: #203f66;
+  color: white;
+}
+
+.ubah-jadwal-btn:hover {
+  background-color: #295fa0;
+  color: #fff;
+}
+
+/* perubahan jadwal (cari) end */
+
+/* Footer */
+footer {
+  height: 203px;
+  width: 100vw;
+  margin-top: 200px;
+  background-color: rgb(188, 194, 217);
+  padding-top: 3rem;
+  box-shadow: 0 -6px 7px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+footer ul li {
+  list-style: none;
+  margin-top: 6px;
+}
+
+footer .col-5 {
+  font-size: 13px;
+}
+
+footer ul li:not(:first-child) {
+  font-style: italic;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item .nav-link {
+    color: #000;
+  }
+
+  .profile {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .offcanvas-profile {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+}

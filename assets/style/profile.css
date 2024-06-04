@@ -1,0 +1,46 @@
+.profile-s {
+  margin-top: 5rem;
+}
+
+.container-profile {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 17rem;
+  border-radius: 10px;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.box {
+  width: 280px;
+  height: 150px;
+  background-color: #fff;
+  stroke: #9b9b9b;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.box-riwayat {
+  width: 732px;
+  height: 150px;
+  background-color: #fff;
+  stroke: #9b9b9b;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.item-profile {
+  color: #203f66;
+}
+
+.profil-ul {
+  font-size: 16px;
+  margin: 15px;
+  color: #9b9b9b;
+}
+
+.lunas {
+  color: #1d6d20;
+}

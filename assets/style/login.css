@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to bottom, rgba(171, 192, 222, 1), rgba(32, 59, 102, 1));
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+}
+
+.container form {
+  font-size: 13px;
+}
+
+.container form .col-5,
+.container form .btn {
+  margin: auto;
+}
+
+.container form .form-check-input,
+.container form .form-check-label {
+  cursor: pointer;
+}
+
+.container form .btn {
+  border-radius: 20px;
+}
+
+.container form .col-5 a {
+  color: white;
+}
+
+.container form .login-way {
+  width: 15%;
+}
+
+.container form .login-way img {
+  width: 50px;
+}
+
+.conatiner input::placeholder {
+  color: #938db2;
+  opacity: 0.2;
+}
